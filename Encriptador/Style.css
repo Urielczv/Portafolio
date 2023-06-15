@@ -1,0 +1,108 @@
+/*   CREADOR: URIEL CRUZ VALDES
+
+        ****REDES SOCIALES***
+        HitGub: Urielczv
+        twitter: @Uriel_cruzv
+        Discord: Uriel交 #6555
+        Correo: urieazul907@gmail.com*/
+
+
+/*DISEÑO GENERAL DE LA PAGINA*/
+*{
+    background: #E5E5E5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+/*SE TRABAJA EL DISEÑO DEL MAIN Y DE LA IMAGEN DEL LOGO*/
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 2%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+
+/*DISEÑO DE LOS CUADROS DE TEXTO DE LA PAGINA*/
+.text-mensaje{
+    border: none;
+    color: #0A3871;
+    margin-top: 10px;
+    height: 410px;
+    text-transform: lowercase;
+}
+::placeholder {color: #0A3871;}
+.text-mensaje:focus{
+    outline: none;
+}
+
+.resultado{
+    background: white;
+    background-image: url(/Encriptador/imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 5px;
+    padding-left: 20px;
+    /*position: fixed;*/
+}
+.resultado:focus{
+    outline: none;
+}
+
+/*PERSONALIZACION DE LOS BOTONES DE LA PAGINA*/
+.button{
+    display: flex;
+    margin-top: 18px;
+}
+
+.encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.desencriptar{
+    background: #D8DFD8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 10px;
+    width: 336px;
+}
+
+/*DISEÑO DEL AVISO*/
+.aviso{
+    color: black;
+    font-size: 18px;
+    margin-top: 30px;
+    height: 1px;
+}
